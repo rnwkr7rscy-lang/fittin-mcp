@@ -1,0 +1,41 @@
+name: fittin-mcp
+displayName: FITTIN — Startup IP Protection
+description: >
+  Know what's protectable before competitors copy it.
+  Free patent prior art search and startup IP intelligence for AI founders and builders.
+  Run a free Patentability Analysis in ~2 minutes — clone risk score, defensibility map,
+  patentable features, competitor patent landscape. Full IP Portfolio Package (6 documents) available for $99.
+category: research
+publisher: FITTIN IP Strategy
+repository: https://github.com/rnwkr7rscy-lang/fittin-mcp
+homepage: https://fittin.dev
+license: MIT
+keywords:
+  - patent
+  - patentability
+  - prior-art
+  - ip-strategy
+  - startup
+  - clone-risk
+  - defensibility
+  - moat
+  - founder
+  - mcp
+  - cursor
+  - claude
+
+install:
+  - pip:
+      package: fittin-mcp
+      command: python3
+      args:
+        - "-m"
+        - fittin_mcp
+      env:
+        FITTIN_EMAIL: "${FITTIN_EMAIL}"
+
+parameters:
+  - name: FITTIN_EMAIL
+    description: Your email address to receive analysis reports
+    required: true
+    type: string
