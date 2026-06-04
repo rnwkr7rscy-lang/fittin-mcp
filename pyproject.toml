@@ -1,0 +1,88 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fittin-mcp"
+version = "0.1.3"
+description = "Free startup protection and IP strategy MCP for Cursor and Claude builders — clone risk, defensibility, moat analysis"
+readme = "README_MCP.md"
+license = {text = "MIT"}
+authors = [{name = "FITTIN IP Strategy", email = "ip@fittin.ai"}]
+keywords = [
+    "startup-protection",
+    "clone-risk",
+    "defensibility",
+    "moat",
+    "startup-moat",
+    "patent",
+    "patentability",
+    "patentability-analysis",
+    "ip-strategy",
+    "intellectual-property",
+    "AI-startup",
+    "SaaS-protection",
+    "protect-my-app",
+    "investor-readiness",
+    "IP-audit",
+    "prior-art",
+    "trade-secret",
+    "founder-tools",
+    "startup-IP",
+    "pre-launch-protection",
+    "competitive-intelligence",
+    "proprietary-tech",
+    "mcp",
+    "cursor",
+    "claude",
+    "cursor-ide",
+    "mcp-server",
+    "lovable",
+    "bolt",
+    "replit",
+    "AI",
+    "IP",
+    "startup",
+    "protect",
+    "protection",
+    "defense",
+    "defend",
+    "clone",
+    "copy",
+    "patent",
+    "founder",
+    "SaaS",
+    "app",
+    "moat",
+    "risk",
+    "audit",
+    "strategy",
+    "investor",
+    "launch",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Other Audience",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Office/Business",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+requires-python = ">=3.10"
+dependencies = []
+
+[project.urls]
+Homepage = "https://fittin.dev"
+"Free Startup Protection Check" = "https://fittin.dev/start"
+"Cursor Integration" = "https://fittin.dev/partners/cursor"
+"IP Strategy Blog" = "https://fittin.dev/blog"
+"Clone Risk Analysis" = "https://fittin.dev/for/clone-risk-analysis"
+"AI Startup Protection" = "https://fittin.dev/for/ai-startup"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["fittin_mcp*"]
