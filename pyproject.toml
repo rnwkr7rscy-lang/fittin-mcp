@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "fittin-mcp"
-version = "0.1.3"
+version = "0.1.4"
 description = "Free startup protection and IP strategy MCP for Cursor and Claude builders — clone risk, defensibility, moat analysis"
 readme = "README_MCP.md"
 license = {text = "MIT"}
